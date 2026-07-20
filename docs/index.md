@@ -14,6 +14,8 @@ Information is published here (in the form we'd expect to pubish in - html/markd
 
 All information here should be taken as not yet proven, and reach out to the author and Interaction design lead (Andy) for advice before following.
 
+[Guide to adding pages](guide)
+
 
 ## HMLR header and footer
 
