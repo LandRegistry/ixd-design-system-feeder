@@ -5,7 +5,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     header: {
       logotype: {
-        text: 'HM Land Registry Digital Design Manual'
+        text: 'Interaction designers, feeder to HMLR Design System'
       },
     },
     footer: {
@@ -23,7 +23,7 @@ export default function(eleventyConfig) {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
-    pathPrefix: "/11ty-govuk-static-site-test/",
+    pathPrefix: "/ixd-design-system-feeder/",
     dir: {
       // The folder where all your content will live:
       input: 'docs',
