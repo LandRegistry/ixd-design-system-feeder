@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template govuk-template--rebranded">
+  <head>
+    <meta charset="utf-8">
+    <title>Font stack for services not hosted on GOV.UK - GOV.UK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#1d70b8">
+
+<link rel="icon" href="/ixd-design-system-feeder/assets/rebrand/images/favicon.ico" sizes="any"><link rel="mask-icon" href="/ixd-design-system-feeder/assets/rebrand/images/govuk-icon-mask.svg" color="#1d70b8"><link rel="apple-touch-icon" href="/ixd-design-system-feeder/assets/rebrand/images/govuk-icon-180.png">
+  <script src="/ixd-design-system-feeder/assets/application.js" type="module"></script>
+
+  <link rel="stylesheet" href="/ixd-design-system-feeder/assets/styles.css">
+
+
+  <meta property="og:title" content="Font stack for services not hosted on GOV.UK">
+
+    <meta property="og:image" content="/assets/rebrand/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body">
+    <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+      <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+
+  <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container app-header__container">
+    <div class="govuk-header__logo app-header__logo">
+      <a href="/ixd-design-system-feeder/" class="govuk-header__link govuk-header__link--homepage">
+          <span class="app-header__logotype">Interaction designers, feeder to HMLR Design System</span>
+      </a>
+    </div>
+    
+  </div>
+</header>
+
+  
+    
+
+      <div class="govuk-width-container">
+  <nav class="govuk-breadcrumbs govuk-!-display-none-print" aria-label="Breadcrumb">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/ixd-design-system-feeder/">Home</a>
+    </li>
+  </ol>
+</nav>
+
+        <main class="govuk-main-wrapper" id="main-content">
+  
+<header class="app-document-header">
+  <h1 class="govuk-heading-xl">Font stack for services not hosted on GOV.UK</h1>
+</header>
+
+
+
+  <div class="app-prose-scope"><p class="govuk-body">Use the GOV.UK font stack for services that are not hosted on GOV.UK.</p>
+<pre class="app-code app-code--block app-code__language--css" tabindex="0"><code><span class="app-code__attribute">font-family</span>: <span class="app-code__string">&quot;Helvetica Neue&quot;</span>, Helvetica, Arial, sans-serif;
+</code></pre>
+
+<p class="govuk-body">This stack uses fonts that are already installed on users’ devices. It does not download web fonts, making it reliable, performant and suitable for government services.</p>
+<h2 id="how-the-font-stack-works" tabindex="-1" class="govuk-heading-l">How the font stack works</h2>
+<p class="govuk-body">Browsers work through the list from left to right and use the first available font.</p>
+<p class="govuk-body">Different operating systems include different fonts by default, so users will not all see exactly the same typeface.</p>
+<table tabindex="0" class="govuk-table">
+<thead class="govuk-table__head">
+<tr class="govuk-table__row">
+<th class="govuk-table__header">Platform</th>
+<th class="govuk-table__header">Font typically used</th>
+</tr>
+</thead>
+<tbody class="govuk-table__body">
+<tr class="govuk-table__row">
+<td class="govuk-table__cell">macOS</td>
+<td class="govuk-table__cell">Helvetica Neue</td>
+</tr>
+<tr class="govuk-table__row">
+<td class="govuk-table__cell">iOS</td>
+<td class="govuk-table__cell">Helvetica (or Helvetica Neue on older versions)</td>
+</tr>
+<tr class="govuk-table__row">
+<td class="govuk-table__cell">Windows</td>
+<td class="govuk-table__cell">Arial</td>
+</tr>
+<tr class="govuk-table__row">
+<td class="govuk-table__cell">Android</td>
+<td class="govuk-table__cell">Roboto (via the generic <code class="app-code app-code--inline">sans-serif</code> family)</td>
+</tr>
+<tr class="govuk-table__row">
+<td class="govuk-table__cell">Linux</td>
+<td class="govuk-table__cell">Distribution-specific sans-serif font, such as Liberation Sans or DejaVu Sans</td>
+</tr>
+</tbody>
+</table>
+<p class="govuk-body">This means that Apple users will usually see Helvetica, Windows users will usually see Arial, and Android users will usually see Roboto.</p>
+<h2 id="why-use-this-font-stack" tabindex="-1" class="govuk-heading-l">Why use this font stack</h2>
+<h3 id="it-does-not-download-fonts" tabindex="-1" class="govuk-heading-m">It does not download fonts</h3>
+<p class="govuk-body">The font stack uses fonts that are already installed on the user’s device.</p>
+<p class="govuk-body">This helps to:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>reduce page load times</li>
+<li>avoid delays while fonts are downloaded</li>
+<li>work well on restricted government networks</li>
+<li>reduce dependencies on external font services</li>
+</ul>
+<h3 id="it-uses-familiar-platform-fonts" tabindex="-1" class="govuk-heading-m">It uses familiar platform fonts</h3>
+<p class="govuk-body">Users see fonts that are commonly used by their operating system.</p>
+<p class="govuk-body">This helps create a familiar reading experience without requiring additional software or downloads.</p>
+<h3 id="it-works-reliably-across-browsers" tabindex="-1" class="govuk-heading-m">It works reliably across browsers</h3>
+<p class="govuk-body">The font stack is supported by all modern browsers and continues to work in older browsers commonly found in government organisations.</p>
+<h2 id="accessibility" tabindex="-1" class="govuk-heading-l">Accessibility</h2>
+<p class="govuk-body">The choice of font does not affect how assistive technologies interpret a page.</p>
+<p class="govuk-body">Screen readers, including JAWS, NVDA, VoiceOver and TalkBack, use the page’s semantic HTML and accessibility information rather than its visual styling.</p>
+<p class="govuk-body">To make content accessible, focus on:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>using semantic HTML</li>
+<li>meeting colour contrast requirements</li>
+<li>supporting text resizing and browser zoom</li>
+<li>allowing text to reflow without loss of content or functionality</li>
+<li>providing appropriate line spacing and font sizes</li>
+<li>avoiding text embedded in images</li>
+</ul>
+<h2 id="design-considerations" tabindex="-1" class="govuk-heading-l">Design considerations</h2>
+<h3 id="font-appearance-varies-between-platforms" tabindex="-1" class="govuk-heading-m">Font appearance varies between platforms</h3>
+<p class="govuk-body">The service will not look identical on every device because different operating systems use different fonts.</p>
+<p class="govuk-body">These fonts vary in:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>letter width</li>
+<li>character spacing</li>
+<li>line height</li>
+<li>overall appearance</li>
+</ul>
+<p class="govuk-body">This is expected and should not be considered a defect.</p>
+<h3 id="text-may-wrap-differently" tabindex="-1" class="govuk-heading-m">Text may wrap differently</h3>
+<p class="govuk-body">Because fonts have different character widths, text may occupy different amounts of space on different platforms.</p>
+<p class="govuk-body">For example:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>a heading may fit on one line on macOS but wrap onto two lines on Windows</li>
+<li>a button label may become two lines on Android</li>
+<li>navigation items or breadcrumbs may wrap earlier than expected</li>
+</ul>
+<p class="govuk-body">Design layouts that can accommodate these differences.</p>
+<h3 id="helvetica-is-not-available-on-every-platform" tabindex="-1" class="govuk-heading-m">Helvetica is not available on every platform</h3>
+<p class="govuk-body">Helvetica is licensed software and is not included with Windows by default.</p>
+<p class="govuk-body">Windows users will normally see Arial instead.</p>
+<p class="govuk-body">Android devices do not typically include Helvetica or Arial and usually display the platform’s default sans-serif font.</p>
+<h2 id="development-considerations" tabindex="-1" class="govuk-heading-l">Development considerations</h2>
+<p class="govuk-body">When implementing interfaces:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>test layouts on macOS, Windows and mobile devices</li>
+<li>check that headings, buttons and navigation still work when text wraps</li>
+<li>avoid layouts that depend on text fitting onto a single line</li>
+<li>allow components to grow vertically when needed</li>
+<li>use responsive layouts rather than fixed heights or widths</li>
+</ul>
+<p class="govuk-body">Designs should remain usable even when different fonts produce slightly different text measurements.</p>
+<h2 id="status-guidance-status" tabindex="-1" class="govuk-heading-l">STATUS - guidance status</h2>
+<p class="govuk-body">Initial draft:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>Ai assisted draft based on a query asking about the font family and its impact on users, to be written like a design system page</li>
+<li>decide the audience for this page, we have currently assumed desingers and developers (solution engineering, maybe this should include specific infor for testers?)</li>
+<li>Author - Andy Porter (IxD lead)</li>
+</ul>
+</div>
+
+
+
+
+        </main>
+      </div>
+
+  <footer class="govuk-footer app-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+
+  
+  <svg focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 60" height="30" width="32" fill="currentcolor" class="govuk-footer__crown">    <g>
+        <circle cx="20" cy="17.6" r="3.7"></circle>
+        <circle cx="10.2" cy="23.5" r="3.7"></circle>
+        <circle cx="3.7" cy="33.2" r="3.7"></circle>
+        <circle cx="31.7" cy="30.6" r="3.7"></circle>
+        <circle cx="43.3" cy="17.6" r="3.7"></circle>
+        <circle cx="53.2" cy="23.5" r="3.7"></circle>
+        <circle cx="59.7" cy="33.2" r="3.7"></circle>
+        <circle cx="31.7" cy="30.6" r="3.7"></circle>
+        <path d="M33.1,9.8c.2-.1.3-.3.5-.5l4.6,2.4v-6.8l-4.6,1.5c-.1-.2-.3-.3-.5-.5l1.9-5.9h-6.7l1.9,5.9c-.2.1-.3.3-.5.5l-4.6-1.5v6.8l4.6-2.4c.1.2.3.3.5.5l-2.6,8c-.9,2.8,1.2,5.7,4.1,5.7h0c3,0,5.1-2.9,4.1-5.7l-2.6-8ZM37,37.9s-3.4,3.8-4.1,6.1c2.2,0,4.2-.5,6.4-2.8l-.7,8.5c-2-2.8-4.4-4.1-5.7-3.8.1,3.1.5,6.7,5.8,7.2,3.7.3,6.7-1.5,7-3.8.4-2.6-2-4.3-3.7-1.6-1.4-4.5,2.4-6.1,4.9-3.2-1.9-4.5-1.8-7.7,2.4-10.9,3,4,2.6,7.3-1.2,11.1,2.4-1.3,6.2,0,4,4.6-1.2-2.8-3.7-2.2-4.2.2-.3,1.7.7,3.7,3,4.2,1.9.3,4.7-.9,7-5.9-1.3,0-2.4.7-3.9,1.7l2.4-8c.6,2.3,1.4,3.7,2.2,4.5.6-1.6.5-2.8,0-5.3l5,1.8c-2.6,3.6-5.2,8.7-7.3,17.5-7.4-1.1-15.7-1.7-24.5-1.7h0c-8.8,0-17.1.6-24.5,1.7-2.1-8.9-4.7-13.9-7.3-17.5l5-1.8c-.5,2.5-.6,3.7,0,5.3.8-.8,1.6-2.3,2.2-4.5l2.4,8c-1.5-1-2.6-1.7-3.9-1.7,2.3,5,5.2,6.2,7,5.9,2.3-.4,3.3-2.4,3-4.2-.5-2.4-3-3.1-4.2-.2-2.2-4.6,1.6-6,4-4.6-3.7-3.7-4.2-7.1-1.2-11.1,4.2,3.2,4.3,6.4,2.4,10.9,2.5-2.8,6.3-1.3,4.9,3.2-1.8-2.7-4.1-1-3.7,1.6.3,2.3,3.3,4.1,7,3.8,5.4-.5,5.7-4.2,5.8-7.2-1.3-.2-3.7,1-5.7,3.8l-.7-8.5c2.2,2.3,4.2,2.7,6.4,2.8-.7-2.3-4.1-6.1-4.1-6.1h10.6,0Z"></path>
+      </g>
+  </svg>
+
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <span class="govuk-footer__licence-description">
+             
+          </span>
+      </div><div class="govuk-footer__meta-item"> 
+        </div>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
