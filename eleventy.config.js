@@ -5,7 +5,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     header: {
       logotype: {
-        text: 'Interaction designers, feeder to HMLR Design System'
+        text: 'draft guidance - feeder for HMLR Design System'
       },
     },
     footer: {
